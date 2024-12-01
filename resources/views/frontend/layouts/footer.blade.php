@@ -9,7 +9,8 @@
 						<!-- Single Widget -->
 						<div class="single-footer about">
 							<div class="logo">
-								<a href="index.html"><img src="{{asset('backend/img/logo2.png')}}" alt="#"></a>
+								{{-- <a href="index.html"><img src="{{asset('backend/img/logo2.png')}}" alt="#"></a> --}}
+								<a href="{{route('home')}}"><img src="http://127.0.0.1:8000/storage/files/1/logo_new.png" alt="logo"></a>
 							</div>
 							@php
 								$settings=DB::table('settings')->get();
@@ -74,7 +75,7 @@
 					<div class="row">
 						<div class="col-lg-6 col-12">
 							<div class="left">
-								<p>Copyright © {{date('Y')}} <a href="https://github.com/Prajwal100" target="_blank">Prajwal Rai</a>  -  All Rights Reserved.</p>
+								<p>Copyright © {{date('Y')}} <a href="https://github.com/diptonath" target="_blank">Dipto Nath</a>  -  All Rights Reserved.</p>
 							</div>
 						</div>
 						<div class="col-lg-6 col-12">

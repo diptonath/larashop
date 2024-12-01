@@ -196,6 +196,7 @@
 <!-- End Midium Banner -->
 
 <!-- Start Most Popular -->
+
 <div class="product-area most-popular section">
     <div class="container">
         <div class="row">
