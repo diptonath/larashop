@@ -63,6 +63,10 @@
 														<button type="button" class="btn btn-primary btn-number" data-type="plus" data-field="quant[{{$key}}]">
 															<i class="ti-plus"></i>
 														</button>
+														<button type="button" class="btn btn-primary btn-number" data-type="plus" data-field="quant[{{$key}}]">
+															<i class="ti-plus"></i>
+														</button>
+														
 													</div>
 												</div>
 												<!--/ End Input Order -->
